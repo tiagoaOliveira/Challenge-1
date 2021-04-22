@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: #D8D8D8;
+    font-family:   karla, monospace;
+}
+
+/* BOX
+====================== */
+.box {
+    position: absolute;
+    overflow: auto;
+    width: 45%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);   
+    border: 0px solid ;
+    border-radius: 15px;
+    box-shadow: 0 0  10px;
+}
+
+/* BACKWHITE
+====================== */
+.backwhite {
+    overflow: auto;
+    background-color: white;
+}
+.titulo {
+    color: #2AB2AF;
+    margin: 25px 0 0 25px;
+}
+.subtitulo {
+    color: #C0DF34;
+    margin: 15px 0 0 25px;
+}
+.descricao {
+    color: #98A6BD;
+    margin: 10px 0 25px 25px;
+}
+
+/* BOTTOM-LEFT
+====================== */
+.bottom-left {
+    float: left;   
+    width: 50%;
+    background-color: #2AB2AF;
+}
+.bottom-left p {
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.top1 {
+    margin: 30px 0 15px 30px !important;
+    font-size: 16px;
+}
+.price {
+    font-size: 25px;
+}
+.perm {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+/* BOTTOM RIGHT
+====================== */
+.bottom-right {
+    float: right;
+    width: 50%;
+    background-color: #2CBAB8;
+}
+.bottom-right p {
+    color: rgba(255, 255, 255, 0.781);
+    margin-left: 30px;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+.top2 {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 15px !important;
+}
+
+/* BOTÃO
+ ======================*/
+ .button {
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #bbd63f;
+    font-weight: bold;
+    box-shadow: 0 0  2px #8daa0b;
+    color: white;
+    margin: 27px 0 30px 0;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.button:hover {
+    background-color: white;
+    color: #2ab2af;
+}
+.button a {
+    text-decoration: none;
+    color: white;
+}
