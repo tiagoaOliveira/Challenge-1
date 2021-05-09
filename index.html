@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="media/favicon-32x32.ico" type="image/x-icon">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
-    </style>
-    <title> Guia de Preços</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="media/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Single Price Grid Component</title>
+
 </head>
 <body>
-    <div class="box">
-        <div class="backwhite">
-            <h1 class="titulo">Join our community</h1>
-            <h2 class="subtitulo">30-days, hassle-free money back guarantee</h2>
-            <p class="descricao">Gain access to our full library of tutorials along with expert code reviews.<br> Perfect for any developers who are serious about honing their skills</p>
-        </div>
-        <div class="box-bottom">
-            <div class="bottom-left">
-                <p class="top1">Monthly Subscription</p>
-                <p class="price">$29 <span class="perm">per month</span></p>
-                <p>Full access for less than $1 a day</p>
-                <a href=""></a><button class="button">Sign Up</button></a>
-            </div>
-            <div class="bottom-right">
-                <p class="top2"><strong>Why Us</strong></p>
-                <p>Tutorials by industry experts<br>Peer & expert code review <br>Coding exercises <br>Access to our Github repos <br>Community forum <br>Flashcard decks <br>New videos every week</p>
-            </div>
-        </div>
+  <section class="container">
+    <div class="card-top">
+      <h1 class="top-title">Join our community</h1>
+      <h3 class="top-subtitle">30-day, hassle-free money back guarantee</h3>
+      <p class="top-p">
+        Gain access to our full library of tutorials along with expert code reviews.
+        Perfect for any developers who are serious about honing their skills.
+      </p>
     </div>
+    <div class="card-bot-left">
+      <h3 class="bot-left-title">Monthly Subscription</h3>
+      <p class="bot-left-price">&dollar;29 <span class="per-month">per month</span></p>
+      <p class="bot-left-p">Full access for less than &dollar;1 a day</p>
+      <div class="btn">
+        <a class="link" href="#"><h3>Sign Up</h3></a>
+      </div>
+    </div>
+    <div class="card-bot-right">
+      <p class="bot-right-title">Why Us</p>
+      <p class="bot-right-p">
+        Tutorials by industry experts<br>
+        Peer &amp; expert code review<br>
+        Coding exercises<br>
+        Access to our GitHub repos<br>
+        Community forum<br>
+        Flashcard decks<br>
+        New videos every week<br>
+      </p>
+    </div>
+  </section>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a class="myname" href="https://github.com/tiagoaoliveira" target="black">Tiago Oliveira</a>.
+    </p>
+  </footer>
 </body>
 </html>
