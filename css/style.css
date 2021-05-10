@@ -9,7 +9,7 @@
 
 body {
   font-family: 'karla', sans-serif;
-  background: gray;
+  background: rgb(179, 214, 235);
 }
 .container {
   justify-content: center;
@@ -44,18 +44,6 @@ body {
   color: hsl(218, 22%, 67%);
   margin: 1.5rem 2rem 2rem 2rem;
 }
-/* FOOTER
-======================== */
-FOOTER  {
-  font-family: monospace;
-  font-size: 1.2rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-.myname {
-  color: white;
-  font-weight: bold;
-}
 /* CARD BOTTOM LEFT
 ======================== */
 .card-bot-left {
@@ -83,7 +71,7 @@ FOOTER  {
   font-family: 'karla', sans-serif;
   margin: 1rem 1rem 2rem 2rem;
 }
-.link {
+#link {
   position: relative;
   text-align: center;
   margin: 0 auto;
@@ -118,7 +106,18 @@ FOOTER  {
   color: hsl(204, 43%, 93%);
   line-height: 1.2rem;
 }
-
+/* FOOTER
+======================== */
+FOOTER  {
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.myname {
+  color: white;
+  font-weight: bold;
+}
 /* JQUERY 375PX
 ======================== */
 @media (max-width: 375px) {
